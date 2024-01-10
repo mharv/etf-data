@@ -1,3 +1,1 @@
-# cpp-testing
-
 # etf-data
