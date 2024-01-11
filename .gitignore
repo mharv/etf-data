@@ -69,3 +69,4 @@ lib/
 
 # python stuff
 scripts/*.txt
+scripts/.venv
