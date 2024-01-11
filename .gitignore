@@ -55,3 +55,17 @@ CMakeFiles/
 # Compiled binaries
 bin/
 lib/
+
+
+
+
+
+
+
+
+
+
+
+
+# python stuff
+scripts/*.txt
