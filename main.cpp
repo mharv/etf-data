@@ -8,5 +8,5 @@
 int main()
 {
     auto inputs = data::get_data();
-    std::cout << *inputs.begin() << std::endl;
+    std::cout << inputs.size() << std::endl;
 }

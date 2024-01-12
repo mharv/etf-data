@@ -19,18 +19,14 @@ std::vector<float> data::get_data()
         std::cout << "failed to open " << filename << '\n';
     else
     {
-
-        char c = istrm.get();
-
-        while (istrm.good())
+        std::string line;
+        while (std::getline(istrm, line))
         {
-            std::string fs(1, c);
-            inputs.push_back(std::stof(fs));
-            c = istrm.get();
+            std::cout << line << std::endl;
+            inputs.push_back(std::stof(line));
         }
-
         istrm.close();
     }
-    
+
     return inputs;
 }
