@@ -2,9 +2,9 @@
 #pragma once
 
 // include libraries
-#include <string>
+#include <vector>
 
 namespace data
 {
-    std::string get_data();
+    std::vector<float> get_data();
 }

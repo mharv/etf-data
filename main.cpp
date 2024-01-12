@@ -7,5 +7,6 @@
 
 int main()
 {
-    std::cout << data::get_data() << std::endl;
+    auto inputs = data::get_data();
+    std::cout << *inputs.begin() << std::endl;
 }
