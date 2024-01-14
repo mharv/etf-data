@@ -9,4 +9,5 @@ int main()
 {
     auto inputs = data::get_data();
     std::cout << inputs.size() << std::endl;
+    std::cout << data::get_average(inputs) << std::endl;
 }

@@ -7,4 +7,5 @@
 namespace data
 {
     std::vector<float> get_data();
+    float get_average(const std::vector<float> &v);
 }

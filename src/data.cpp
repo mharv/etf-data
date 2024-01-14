@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <numeric>
 
 using namespace data;
 
@@ -29,4 +30,17 @@ std::vector<float> data::get_data()
     }
 
     return inputs;
+}
+
+float data::get_average(std::vector<float> const& v) {
+    if(v.empty()){
+        return 0;
+    }
+
+    auto const count = static_cast<float>(v.size());
+    float sum = 0;
+    for (auto& n : v) {
+        sum = sum + n;
+    }
+    return sum / count;
 }
