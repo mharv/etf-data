@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 import math
 import random
@@ -25,7 +25,7 @@ for i, line in enumerate(file):
 print(x)
 print(y)
 
-fig, ax = plt.subplots()
-ax.plot(x, y)
-ax.set_title('A single plot')
-plt.show()
+# fig, ax = plt.subplots()
+# ax.plot(x, y)
+# ax.set_title('A single plot')
+# plt.show()

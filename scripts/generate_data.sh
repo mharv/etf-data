@@ -1,4 +1,6 @@
 #!/bin/bash
 
-rm ./data.txt
-python generate_data.py
+if [ -f ./data.txt ]; then
+    rm ./data.txt
+fi
+python3 generate_data.py

@@ -13,7 +13,7 @@ mkdir -p "$BUILD_DIR" || exit 1
 cd "$BUILD_DIR" || exit 1
 
 # Run CMake to generate the build files
-cmake "$SCRIPT_DIR" -DCMAKE_CXX_COMPILER=clang++ -v
+cmake "$SCRIPT_DIR" -DCMAKE_CXX_COMPILER=clang++
 
 # Build the project using make
 make
